@@ -9,3 +9,4 @@ This directory contains frontend part for the `book-review-application` built us
 - Tailwind CSS
 
 Random Test Line to trigger the pipeline.
+Another line to trigger the pipeline
