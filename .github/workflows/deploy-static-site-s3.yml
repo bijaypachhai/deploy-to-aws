@@ -42,7 +42,7 @@ jobs:
         run: aws sts get-caller-identity
 
       - name: Push Code to bucket
-        run: cd static-site-on-s3 && aws s3 cp dist/* s3://$S3_BUCKET --recursive
+        run: cd static-site-on-s3 && aws s3 cp dist/* s3://$S3_BUCKET/ --recursive
 
       # - name: Deploy
       #   uses: reggionick/s3-deploy@v4
